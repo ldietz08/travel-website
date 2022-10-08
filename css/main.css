@@ -20,6 +20,7 @@
     left: 0;
     right: 0;
     background-color: #FFFFFF;
+    z-index: 999;
 }
 
 .nav-bar__list {
@@ -51,13 +52,14 @@
 }
 
 .hero-header {
-    padding: 5rem;
+    padding: 6rem;
 }
 
 .hero-header__title {
     color: #335576;
     width: 60%;
     margin-bottom: 2rem;
+    font-size: 2rem;
 }
 
 .hero-header__text-content {
@@ -73,7 +75,7 @@
     border-radius: 2rem;
     border: none;
     padding: 0.5rem 1rem;
-    font-size: 18px;
+    font-size: 1rem;
     letter-spacing: 3px;
     width: 30%;
 }
@@ -90,6 +92,7 @@
     height: 20rem;
     width: 24rem;
     margin-right: 3rem;
+    margin-top: 2rem;
 }
 
 /* Cards section */
@@ -129,4 +132,51 @@
     position: absolute;
     bottom: 2px;
     right: 15px;
+}
+
+/* Footer */
+
+.footer__container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+    background-color: #FEFAF5;
+}
+
+.footer__icons {
+    min-width: 2rem;
+    max-width: 2rem;
+    margin-right: 2rem;
+}
+
+.footer-content__container {
+    display: flex;
+}
+
+.footer-content__item,
+.footer__content {
+    margin: 0 1.5rem;
+}
+
+.footer__content-title {
+    color: #335576;
+}
+
+.footer__content-title--padding {
+    padding-left: 1.5rem;
+}
+
+.footer-content__day {
+    color: #DB7A4E;
+    text-transform: uppercase;
+}
+
+.footer__content-icons {
+    margin-top: 2rem;
+}
+
+.footer__icons--fb-size {
+    min-width: 1rem;
+    max-width: 1rem;
 }
