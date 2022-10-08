@@ -175,6 +175,7 @@
 .footer-content__day {
     color: #DB7A4E;
     text-transform: uppercase;
+    font-size: 0.7rem;
 }
 
 .footer-content__link {
