@@ -5,7 +5,7 @@
     width: 100vw;
 }
 
-.logo {
+.nav-bar__logo {
     font-weight: bold;
     padding-left: 4rem;
     padding-top: 1rem;
@@ -31,7 +31,7 @@
     list-style-type: none;
 }
 
-.logo,
+.nav-bar__logo,
 .nav-bar__list-item-link {
     text-decoration: none;
     margin: 15px;
@@ -90,4 +90,43 @@
     height: 20rem;
     width: 24rem;
     margin-right: 3rem;
+}
+
+/* Cards section */
+
+.cards__title {
+    color: #335576;
+    padding-left: 6rem;
+}
+
+.destination-card__image {
+    height: 25rem;
+    width: 17rem;
+    border-radius: 5px;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.2);
+}
+
+.destination-cards__container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 2rem;
+}
+
+.destination-card__item {
+    margin: 2rem;
+    position: relative;
+    transition: transform 0.3s;
+}
+
+.destination-card__item:hover {
+    transform: scale(1.1);
+}
+
+.destination-card__title {
+    color: white;
+    position: absolute;
+    bottom: 2px;
+    right: 15px;
 }
