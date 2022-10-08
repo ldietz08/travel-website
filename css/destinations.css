@@ -42,3 +42,66 @@
     border-bottom: 2px solid #DB7A4E;
 }
 
+/* DESTINATIONS CSS HERO + FOOTER */
+
+.hero__container--hawaii {
+    background-image: url(../assets/images/hawaii.jpg);
+    background-size: cover;
+    background-position: 40% 53%;
+    height: 75vh;
+}
+
+.hero__container--iceland {
+    background-image: url(../assets/images/iceland.jpg);
+    background-size: cover;
+    background-position: 55% 45%;
+    height: 75vh;
+}
+
+.hero__container--greece {
+    background-image: url(../assets/images/greece.jpg);
+    background-size: cover;
+    background-position: 55% 45%;
+    height: 75vh;
+}
+
+.hero__title {
+    color: white;
+    font-size: 4rem;
+    padding-top: 3rem;
+    padding-left: 5rem;
+    margin-bottom: 2rem;
+}
+
+.hero__container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero__item-container {
+    display: flex;
+}
+
+.hero__item {
+    margin: 1rem;
+    background-color: white;
+    padding: 0 1rem;
+    line-height: 4rem;
+    text-align: center;
+    list-style: none;
+}
+
+.hero__item-title {
+    border-bottom: 2px solid black;
+    line-height: 1rem;
+    font-weight: bold;
+    padding-top: 1rem;
+}
+
+.hero__item-list {
+    background-color: #FEFAF5;
+    width: 18vw;
+    list-style: none;
+}
+
