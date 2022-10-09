@@ -1,7 +1,7 @@
 /* Header */
 
 .header {
-    height: 6vh;
+    height: 5vh;
     width: 100vw;
 }
 
@@ -21,7 +21,6 @@
     justify-content: space-between;
     align-items: center;
     position: fixed;
-    margin-bottom: 1vh;
     left: 0;
     right: 0;
     background-color: #FFFFFF;
@@ -39,7 +38,7 @@
 
 .nav-bar__list-item-link {
     color: black;
-    padding-bottom: 0.25rem;
+    padding-bottom: 0.4rem;
 }
 
 .nav-bar__logo,
