@@ -175,6 +175,10 @@
     padding-left: 1.5rem;
 }
 
+.footer__content-title--pd {
+    margin-bottom: 3rem;
+}
+
 .footer-content__day {
     color: #DB7A4E;
     text-transform: uppercase;
@@ -192,6 +196,7 @@
 
 .footer__content-icons {
     margin-top: 2rem;
+    padding-bottom: 1rem;
 }
 
 .footer__icons--fb-size {
