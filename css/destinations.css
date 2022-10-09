@@ -47,6 +47,11 @@
     border-bottom: 2px solid #DB7A4E;
 }
 
+.nav-bar__list-item-link {
+    color: black;
+    padding-bottom: 0.25rem;
+}
+
 /* Hero section */
 
 .hero__container-hawaii {
@@ -67,7 +72,7 @@
     background-image: url(../assets/images/greece.jpg);
     background-size: cover;
     background-position: 55% 45%;
-    height: 80svh;
+    height: 80vh;
 }
 
 .hero__title {
@@ -93,9 +98,10 @@
     margin: 1rem;
     background-color: white;
     padding: 0 1rem;
-    line-height: 3rem;
+    line-height: 2.5rem;
     text-align: center;
     list-style: none;
+    border-radius: 2%;
 }
 
 .hero__item-title {
@@ -113,7 +119,7 @@
     margin-bottom: 1rem;
 }
 .hero__item-list--last {
-    margin-bottom: 2rem;
+    margin-bottom: 4rem;
 }
 
 /* Footer */
@@ -165,7 +171,7 @@
 }
 
 .footer__content-icons {
-    margin-top: 2rem;
+    margin-top: 2.5rem;
 }
 
 .footer__icons--fb-size {
