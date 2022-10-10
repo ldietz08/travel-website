@@ -1,7 +1,8 @@
 # Travel Site Project
 
 ```
-First graded project in Web Development Bootcamp. Static website built using HTML and CSS - 10/10/2022
+First graded project in Web Development Bootcamp.
+Static website built using HTML and CSS - 10/10/2022
 
 ```
 
