@@ -157,11 +157,11 @@
     margin-right: 2rem;
 }
 
-.footer-content__container {
+.footer__content-container {
     display: flex;
 }
 
-.footer-content__item,
+.footer__content-item,
 .footer__content {
     margin: 0 1.5rem;
 }
@@ -175,21 +175,21 @@
 }
 
 .footer__content-title--pd {
-    margin-bottom: 3rem;
+    margin-bottom: 2.5rem;
 }
 
-.footer-content__day {
+.footer__content-subtitle {
     color: #DB7A4E;
     text-transform: uppercase;
     font-size: 0.7rem;
 }
 
-.footer-content__link {
+.footer__content-link {
     text-decoration: none;
     color: #335576;
 }
 
-.footer-content__time{
+.footer__content-time{
     color: #335576;
 }
 
